@@ -144,7 +144,7 @@ function App({user,signOut}) {
       <Pets 
         overrideItems={({item,index})=>({
           overrides: {
-            Breed: {color:"blue"},
+            Breed: {color:"green"},
             Button29766907: {
               onClick: ()=>{
                 setShowDetails(!showDetails);
